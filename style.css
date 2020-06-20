@@ -92,6 +92,11 @@ h1 {
   background-size: 60%;
 }
 
+.weka {
+  background: url('Weka.jpg') bottom center no-repeat;
+  background-size: 60%;
+}
+
 .hole.up .friend {
   top: 0;
 }

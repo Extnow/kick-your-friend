@@ -5,7 +5,7 @@ const button = document.querySelector('.btn');
 let lastHole;
 let timeUp = false;
 let score = 0;
-const friendsPhoto = ['anton', 'roma', 'nekit'];
+const friendsPhoto = ['anton', 'roma', 'nekit', 'weka'];
 
 function randomTime(min, max) {
   return Math.round(Math.random() * (max - min) + min);
