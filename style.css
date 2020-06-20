@@ -23,11 +23,20 @@ h1 {
   margin-bottom: 0;
 }
 
+@media (max-width: 450px) {
+  h1 {
+    font-size: 7rem;
+  }
+}
+
 .score {
+  font-size: 55px;
+  width: 60px;
+  margin: 0 auto;
   background: rgba(255, 255, 255, 0.2);
-  padding: 0 3rem;
-  line-height: 1;
   border-radius: 1rem;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .control-panel {
@@ -41,7 +50,7 @@ h1 {
 }
 
 .game {
-  width: 600px;
+  max-width: 600px;
   height: 400px;
   display: flex;
   flex-wrap: wrap;
@@ -50,7 +59,7 @@ h1 {
 
 .hole {
   flex: 1 0 33.33%;
-  overflow: hidden;
+
   position: relative;
 }
 
